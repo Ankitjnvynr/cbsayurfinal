@@ -17,6 +17,7 @@ import LatestNewsAreaHomeFour from '../home-4/LatestNewsAreaHomeFour';
 import BrandAreaHomeFour from '../home-4/BrandAreaHomeFour';
 import FooterFour from '@/layout/footers/FooterFour';
 import HeaderTwo from '@/layout/headers/HeaderTwo';
+import FooteTwo from '@/layout/footers/FooteTwo';
 
 const HomeFive = () => {
   return (
@@ -38,7 +39,7 @@ const HomeFive = () => {
         <LatestNewsAreaHomeFour />
         <BrandAreaHomeFour />
       </main>
-      <FooterFour />
+      <FooteTwo />
     </>
   );
 };
