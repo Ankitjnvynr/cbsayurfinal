@@ -16,11 +16,12 @@ import CounterHomeFive from './CounterHomeFive';
 import LatestNewsAreaHomeFour from '../home-4/LatestNewsAreaHomeFour';
 import BrandAreaHomeFour from '../home-4/BrandAreaHomeFour';
 import FooterFour from '@/layout/footers/FooterFour';
+import HeaderTwo from '@/layout/headers/HeaderTwo';
 
 const HomeFive = () => {
   return (
     <>
-      <HeaderFour />
+      <HeaderTwo />
       <main>
         <HeroAreaHomeFour style={true} />
         <AboutAreaHomeFive />
