@@ -19,8 +19,8 @@ const TeamAreaHomeFour = () => {
                   <Image className="section-back-icon" src={back_icon} alt="back-icon" />
                 </div>
                 <div className="section-text pos-rel">
-                  <h5>Our Team</h5>
-                  <h1>A Professional & Care Provider</h1>
+                  <h5>Our Experts in Holistic Healing</h5>
+                  <h4>Dedicated Practitioners for Your Wellness & Rejuvenation</h4>
                 </div>
                 <div className="section-line pos-rel">
                   <Image src={line_icon} alt="section-line" />

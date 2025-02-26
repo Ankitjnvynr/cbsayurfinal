@@ -8,6 +8,9 @@ import SocialLinks, { CopyRight } from '@/components/common/SocialLinks';
 import footer_icon_1 from "@/assets/img/icon/footer-co-icon-1.png";
 import footer_icon_2 from "@/assets/img/icon/footer-co-icon-2.png";
 import footer_icon_3 from "@/assets/img/icon/footer-co-icon-3.png";
+import { IoMdMail } from "react-icons/io";
+import { IoCall } from "react-icons/io5";
+import { MdLocationPin } from "react-icons/md";
 
 import blog_thumb_1 from "@/assets/img/blog/feeds-thumb-1.jpg";
 import blog_thumb_2 from "@/assets/img/blog/feeds-thumb-2.jpg";
@@ -46,15 +49,15 @@ const footer_content: DataType = {
     {
       id: 1,
       img: footer_icon_1,
-      title: "Mon to Fri : 08h30 - 18h00",
-      info: "+123 456 7890",
+      title: "Mon to Fri : 09:00am - 05:00pm",
+      info: "+91-8053111333-444",
       link: false,
     },
     {
       id: 2,
       img: footer_icon_2,
       title: "do you have a question?",
-      info: "info@gmail.com",
+      info: "ceo@cbscolleges.com",
       link: false,
     },
     {
@@ -72,11 +75,15 @@ const footer_content: DataType = {
       links: [
         { title: "Home", link: "#" },
        
-        { title: "About", link: "#" },
+        { title: "Department", link: "#" },
        
-        { title: "Courses", link: "#" },
+        { title: "About", link: "#" },
         
-        { title: "Contact Us", link: "#" },
+        { title: "Courses", link: "#" },
+
+        { title:"Admission", link: "#" },
+
+        {title:"Events", link: "#"  },
        
       ]
     }
@@ -141,15 +148,15 @@ const FooteTwo = () => {
                   </div>
                 </div>
                 {link_data.map((link, link_i) =>
-                  <div key={link_i} className="col-xl-4 col-lg-6 col-md-6">
+                  <div key={link_i} className="col-xl-4 col-lg-6 col-md-6" style={{color:"white"}}>
                     <div className="footer-widget mb-40">
                       <div className="footer-title">
                         <h3>{link.title}</h3>
                       </div>
-                      <div className="footer-menu footer-menu-2 fix">
-                        <ul>
+                      <div className="footer-menu footer-menu-2 fix "style={{color:"white"}}  >
+                        <ul style={{color:"white"}}>
                           {link.links.map((link_item, index) =>
-                            <li key={index}><Link href={link_item.link}>{link_item.title}</Link></li>
+                            <li key={index} style={{color:"white"}}><Link href={link_item.link} >{link_item.title} </Link></li>
                           )}
                         </ul>
                       </div>
@@ -159,7 +166,13 @@ const FooteTwo = () => {
                 <div className="col-xl-4 col-md-6">
                   <div className="footer-widget mb-40">
                     <div className="footer-title">
-                      <h3>News Feeds</h3>
+                      <h3>Contact Us</h3> 
+                     
+                     <p style={{color:"white"}} ><IoMdMail style={{ marginRight: "8px" }}/>ceo@cbscolleges.com</p>
+               
+                      <p  style={{color:"white"}}> <IoCall style={{ marginRight: "8px" }} />+91-8053111333-444</p>
+                      <p  style={{color:"white",display: "flex"}}> <MdLocationPin  size={20} style={{ marginRight: "8px" }}/>8 KM. Mile Stone, Jhajjar-Kosli Road,
+                      Fatehpuri , Jhajjar Delhi-NCR (Haryana)</p>
                     </div>
                     <div className="blog-feeds pr-15">
                       {footer_blog_data.map((blog_item, blog_i) =>
