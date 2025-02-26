@@ -90,5 +90,17 @@ const MenuData: MenuDataType[] = [
     //   { link: "/contact",                      title: "Contact",},     
     // ],
   }, 
+  {
+    id: 7,
+    title: "Panchkarma",
+    link: "/panchakarma",
+    has_dropdown: false, 
+    sub_menus: []
+    // sub_menus: [
+    //   { link: "/doctor",                      title: "Doctors 01",},  
+    //   { link: "/doctor-2",                    title: "Doctors 02",},  
+    //   { link: "/doctor-details",              title: "Doctors Details",},  
+    // ],
+  }, 
 ];
 export default MenuData;

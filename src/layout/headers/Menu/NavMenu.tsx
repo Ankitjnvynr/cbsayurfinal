@@ -9,8 +9,8 @@ const NavMenu = ({home_4 } : any) => {
     <>
       <ul>
         {MenuData.map((item, i) => (
-          <li key={i}>
-            <Link href={item.link}>{item.title}</Link>
+          <li  className=" m-2 " key={i}>
+            <Link  href={item.link}>{item.title}</Link>
             {/* <ul className="submenu">
               {item.sub_menus?.map((sub_menu, index) =>
                 <li key={index}>

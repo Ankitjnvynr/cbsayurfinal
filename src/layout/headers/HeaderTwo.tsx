@@ -32,16 +32,16 @@ const HeaderTwo = () => {
                     <i className="fas fa-bars text-white"></i> </button>
                 </div>
               </div>
-              <div className="col-xl-4 col-lg-2 d-none d-lg-block d-xl-block">
+              {/* <div className="col-xl-4 col-lg-2 d-none d-lg-block d-xl-block">
                 <div className="header-right f-right">
                   <Link href="/" data-animation="fadeInLeft" data-delay=".6s" className="btn btn-icon btn-icon-green">
                     <span>+</span>contact us
                   </Link>
                   <Link href="#" data-animation="fadeInLeft" data-delay=".6s" className="btn btn-icon btn-icon-white">
-                    <i className="fas fa-phone"></i>Make A Call
+                    <i className="fas fa-phone"></i>Make A 
                   </Link>
                 </div>
-              </div>
+              </div> */}
               <div className="col-12">
                 <div className="mobile-menu mobile-menu-white"></div>
               </div>
