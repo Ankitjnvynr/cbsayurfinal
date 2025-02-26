@@ -75,8 +75,8 @@ const ServicesAreaHomeFour = ({ style }: any) => {
                   <Image className="section-back-icon" src={back_icon} alt="" />
                 </div>
                 <div className="section-text pos-rel">
-                  <h5>Departments</h5>
-                  <h1>Managed Your Heathcare Services</h1>
+                  <h1>Panchakarma</h1>
+                  <h4>The Path to Wellness and Vitality.</h4>
                 </div>
                 <div className="section-line pos-rel">
                   <Image src={title_line} alt="" />
@@ -93,17 +93,17 @@ const ServicesAreaHomeFour = ({ style }: any) => {
               <i className="fal fa-angle-right"></i>
             </button>
             <Slider {...setting} ref={sliderRef}>
-              {servcies_data.slice(4, 8).map((item, i) =>
+              {servcies_data.slice(1, 6).map((item, i) =>
                 <div key={i} className="h4service-item">
                   <div className="h4service-box white-bg mb-30">
                     <div className="service-thumb pos-rel mb-0">
-                      <Image src={item.img} alt="theme-pure" />
+                      <Image src={item.img} alt="theme-pure" className="service-image" style={{height:"40vh"}}/>
                       <Link className="h4services-tag green-bg white-color text-uppercase f-700" href="#" >{item.sub_title}</Link>
                     </div>
                     <div className={`service-content ${style ? "h4services-content h6services-content" : "h4services-content"}`}>
                       <h3><a href="#">{item.title}</a></h3>
                       <p className="mb-20"> {item.sm_des} </p>
-                      {style ?
+                      {/* {style ?
                         <div className="h5services-bottom">
                           <span><i><Image src={icon_home_5} alt="" /></i>
                             <span className="f-500">07 Specialist Doctors</span></span>
@@ -112,7 +112,7 @@ const ServicesAreaHomeFour = ({ style }: any) => {
                         <Link className="service-link" href="/service-details">
                           Read More <i className="fal fa-long-arrow-right"></i>
                         </Link>
-                      }
+                      } */}
                     </div>
                   </div>
                 </div>

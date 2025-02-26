@@ -12,9 +12,10 @@ import FactAreaHomeFour from '../home-4/FactAreaHomeFour';
 import MedicalTabHomeFive from './MedicalTabHomeFive';
 import HowItWorksHomeFour from '../home-4/HowItWorksHomeFour';
 import TestimonialsHomeFour from '../home-4/TestimonialsHomeFour';
-import CounterHomeFive from './CounterHomeFive';
-import LatestNewsAreaHomeFour from '../home-4/LatestNewsAreaHomeFour';
-import BrandAreaHomeFour from '../home-4/BrandAreaHomeFour';
+// import CounterHomeFive from './CounterHomeFive';
+import UpdateFive from './UpdateFive';
+// import LatestNewsAreaHomeFour from '../home-4/LatestNewsAreaHomeFour';
+// import BrandAreaHomeFour from '../home-4/BrandAreaHomeFour';
 import FooterFour from '@/layout/footers/FooterFour';
 import HeaderTwo from '@/layout/headers/HeaderTwo';
 import FooteTwo from '@/layout/footers/FooteTwo';
@@ -35,9 +36,10 @@ const HomeFive = () => {
         <MedicalTabHomeFive />
         <HowItWorksHomeFour />
         <TestimonialsHomeFour />
-        <CounterHomeFive />
-        <LatestNewsAreaHomeFour />
-        <BrandAreaHomeFour />
+        <UpdateFive/>
+        {/* <CounterHomeFive /> */}
+        {/* <LatestNewsAreaHomeFour />
+        <BrandAreaHomeFour /> */}
       </main>
       <FooteTwo />
     </>

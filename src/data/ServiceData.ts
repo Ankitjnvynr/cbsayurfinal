@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 
 import service_img_1 from "@/assets/img/services/service-icon-1.png";
-import service_img_2 from "@/assets/img/services/service-icon-2.png";
-import service_img_3 from "@/assets/img/services/service-icon-3.png";
-import service_img_4 from "@/assets/img/services/service-icon-4.png"; 
+import service_img_2 from "@/assets/img/home4/services/panchakarma.jpg";
+import service_img_3 from "@/assets/img/home4/services/panchakarma1.jpg";
+import service_img_4 from "@/assets/img/home4/services/panchakarma2.jpg"; 
 
-import service_img_4_1 from "@/assets/img/home4/services/h4__services__thumb1.png"; 
-import service_img_4_2 from "@/assets/img/home4/services/h4__services__thumb2.png"; 
+import service_img_4_1 from "@/assets/img/home4/services/panchakarma3.jpg"; 
+import service_img_4_2 from "@/assets/img/home4/services/2.webp"; 
 import service_img_4_3 from "@/assets/img/home4/services/h4__services__thumb3.png"; 
 
 import service_img_5_1 from "@/assets/img/services/service1.png";
@@ -37,38 +37,39 @@ const servcies_data: ServciesDataType[] = [
   {
     id: 2,
     img: service_img_2,
-    sub_title: "Therapeutic Detox",
-    title: "Panchakarma Therapy",
-    sm_des: "Experience the five-fold Ayurvedic detoxification process that purifies the body and restores balance through herbal treatments and oil therapies.",
+    sub_title: "Abhyanga (Oil Massage)",
+    title: "",
+    sm_des: "Nourishes skin, improves circulation, and relaxes muscles. A full-body therapeutic oil massage using warm herbal oils, tailored to an individual’s dosha (body type).",
   },
   {
     id: 3,
     img: service_img_3,
-    sub_title: "Herbal Remedies",
-    title: "Ayurvedic Pharmacy",
-    sm_des: "Access natural and effective herbal medicines formulated based on traditional Ayurvedic knowledge for various health concerns.",
+    sub_title: "Shirodhara",
+    title: "",
+    sm_des: "A stream of warm oil on the forehead to calm the mind. A gentle, continuous stream of warm herbal oil poured on the forehead (third eye region) to calm the nervous system and promote mental clarity.",
   },
   {
     id: 4,
     img: service_img_4,
-    sub_title: "Rejuvenation & Wellness",
-    title: "Abhyanga (Ayurvedic Massage)",
-    sm_des: "A therapeutic full-body oil massage designed to nourish the skin, improve circulation, and promote deep relaxation.",
+    sub_title: "Swedana (Herbal Therapy)",
+    title: "",
+    sm_des: "Opens pores, detoxifies, and relaxes the body. A steam therapy using medicinal herbs to induce sweating, promoting detoxification and muscle relaxation.",
   },
+  
   // Additional Ayurveda Services
   {
     id: 1,
     img: service_img_4_1,
-    sub_title: "Pain Management",
-    title: "Kati Basti (Lower Back Therapy)",
-    sm_des: "A specialized treatment using warm medicated oils retained on the lower back to relieve chronic pain and stiffness.",
+    sub_title: "Basti (Medicated Enema)",
+    title: "",
+    sm_des: "Cleanses the colon and balances Vata dosha. A medicated enema treatment that cleanses the colon and removes toxins, particularly balancing Vata dosha.",
   },
   {
     id: 2,
     img: service_img_4_2,
-    sub_title: "Respiratory Health",
-    title: "Nasya (Nasal Therapy)",
-    sm_des: "A nasal detox therapy using herbal oils to cleanse the sinuses, improve breathing, and enhance mental clarity.",
+    sub_title: "Nasya (Nasal Therapy)",
+    title: "",
+    sm_des: "Clears sinuses, improves breathing, and sharpens the mind. A therapeutic nasal cleansing treatment that uses herbal oils or powders to remove toxins from the sinuses, head, and brain.",
   },
   {
     id: 3,

@@ -6,7 +6,11 @@ import React from 'react';
 const TestimonialsHomeFour = () => {
   return (
     <>
-      <div className="testimonials pt-150 pb-80" style={{ backgroundImage: `url(/assets/img/home4/bg/testimonials-bg.jpg)`, backgroundRepeat: 'no-repeat'}}>
+      <div className="testimonials pt-150 pb-80" style={{ backgroundImage: `url(/assets/img/home4/bg/8.jpg)`, 
+      backgroundRepeat: 'no-repeat',
+        backgroundPosition:"center",
+        backgroundSize:"cover"
+      }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-7 offset-xl-5 h4testi-col">

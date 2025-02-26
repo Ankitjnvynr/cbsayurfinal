@@ -125,3 +125,4 @@ const AboutAreaHomeFive = () => {
 };
 
 export default AboutAreaHomeFive;
+

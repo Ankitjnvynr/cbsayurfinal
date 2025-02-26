@@ -2664,3 +2664,67 @@
 
 
 }}
+/* Basic styles for desktop view */
+  .service-image {
+	width: 100%;
+	height: 45%; /* Adjust image size to maintain aspect ratio */
+  }
+  
+  /* Service content styles */
+  .service-content {
+	padding: 15px;
+  }
+  
+  /* Adjust the bottom span size */
+  .h5services-bottom span {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+  }
+  
+  /* Media Queries for Tablet */
+  @media (max-width: 768px) {
+	.h4service-box {
+	  width: calc(50% - 20px); /* 2 items per row on tablets */
+	  justify-content: center;
+	}
+  
+	.service-thumb .service-image {
+	  height: 25vh; /* Make image size smaller on tablets */
+	}
+  
+	.h4services-tag {
+	  font-size: 0.8rem; /* Adjust font size on smaller devices */
+	}
+  }
+  
+  /* Media Queries for Mobile */
+  @media (max-width: 480px) {
+	.h4service-box {
+	  width: 100%; /* Single item per row on mobile */
+	}
+  
+	.service-thumb .service-image {
+	  height: 20vh; /* Even smaller images on mobile */
+	}
+  
+	.h4services-tag {
+	  font-size: 0.7rem; /* Adjust font size on very small screens */
+	}
+  
+	.service-content {
+	  padding: 10px; /* Slightly reduce padding on mobile */
+	}
+  
+	.h5services-bottom {
+	  font-size: 0.8rem; /* Make the bottom span smaller on mobile */
+	}
+  }
+  
+
+
+
+
+
+
+  

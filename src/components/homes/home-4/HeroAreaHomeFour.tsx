@@ -39,12 +39,12 @@ const setting = {
 const hero_slider_data = [
   {
     id: 1,
-    title: "Health & Doctor",
-    sm_des: "Avoids pleasure itself, because it is pleasure, but because those who do not know how rationally encounter consequences that extremely system weathe.",
+    title: "पंचकर्म (panchakarma)",
+    sm_des: "Step into a world of holistic healing, where ancient wisdom meets modern well-being. Through the power of Panchakarma and Ayurveda, we help restore balance, cleanse toxins, and revitalize your health from within.",
     feature_list: [
-      "Digital Laboratory & Computerized System",
-      "Digital Laboratory & Computerized System",
-      "Digital Laboratory & Computerized System",
+      "Ayurvedic Consultation",
+      "Natural Herbal Remedies",
+      "Stress & Lifestyle Managemen",
     ],
   },
   {
