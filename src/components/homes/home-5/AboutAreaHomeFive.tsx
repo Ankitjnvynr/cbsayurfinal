@@ -19,7 +19,7 @@
 //     id: number;
 //     color_bg: string;
 //     bg_img: StaticImageData;
-//     img: StaticImageData;
+//     img: StaticImageDadta;
 //     title: string;
 //     sm_des?: string;
 //     btn_text?: string;
@@ -42,7 +42,7 @@
 //       color_bg: "theme-bg2",
 //       bg_img: bg_icon_1,
 //       img: icon_1,
-//       title: "Holistic Healing",
+//       title: "Holistic Heal ing",
 //       sm_des: "We focus on restoring balance by treating the root cause of imbalances rather than merely alleviating symptoms.By assessing your unique body constitution and health history, we craft personalized treatment plans that include detoxification, rejuvenation therapies, and nutritional guidance.",
       
 //     },
