@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-import service_img_1 from "@/assets/img/services/service-icon-1.png";
+import service_img_1 from "@/assets/img/home4/services/4.jpg";
 import service_img_2 from "@/assets/img/home4/services/panchakarma.jpg";
 import service_img_3 from "@/assets/img/home4/services/panchakarma1.jpg";
 import service_img_4 from "@/assets/img/home4/services/panchakarma2.jpg"; 
@@ -31,7 +31,7 @@ const servcies_data: ServciesDataType[] = [
     id: 1,
     img: service_img_1,
     sub_title: "Holistic Healing",
-    title: "Ayurvedic Consultation",
+    title: "",
     sm_des: "Get personalized health consultations based on Ayurveda principles, including Dosha analysis, herbal remedies, and lifestyle guidance.",
   },
   {
@@ -46,7 +46,7 @@ const servcies_data: ServciesDataType[] = [
     img: service_img_3,
     sub_title: "Shirodhara",
     title: "",
-    sm_des: "A stream of warm oil on the forehead to calm the mind. A gentle, continuous stream of warm herbal oil poured on the forehead (third eye region) to calm the nervous system and promote mental clarity.",
+    sm_des: "A stream of warm oil on the forehead to calm the mind. A gentle, continuous stream of warm herbal oil poured on the forehead  to calm the nervous system and promote mental clarity.",
   },
   {
     id: 4,
