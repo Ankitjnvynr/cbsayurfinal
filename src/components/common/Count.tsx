@@ -39,3 +39,4 @@ const Count = ({ number, text, add_style }: CountType) => {
 };
 
 export default Count;
+

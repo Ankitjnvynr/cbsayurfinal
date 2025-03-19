@@ -10,6 +10,7 @@ import NewsLetterHomeTwo from "./NewsLetterHomeTwo";
 import TeamAreaHomeTwo from "./TeamAreaHomeTwo";
 import BlogAreaHomeTwo from "./BlogAreaHomeTwo";
 import FooteTwo from "@/layout/footers/FooteTwo";
+import PanchakarmalinkTwo from "./PanchakarmalinkTwo";
 
 const HomeTwo = () => {
   return (
@@ -19,6 +20,7 @@ const HomeTwo = () => {
         <HeroBannerHomeTwo />
         <AboutAreaHomeTwo />
         <MissionVisionAreaHomeTwo />
+        <PanchakarmalinkTwo />
         <CounterSectionHomeTwo />
         <AppoinmentAreaHomeTwo />
         <ServicesAreaHomeTwo />
